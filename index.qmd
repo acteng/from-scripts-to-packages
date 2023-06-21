@@ -2,7 +2,7 @@
 format: revealjs
 title: "From writing R scripts to functions and packages"
 subtitle: Observations on the journey with reference to the stats19 R package
-author: Robin Lovelace, Head of Data and Digital, Active Travel England<br>Coffee and Coding presentation for the Department for Transport's Coding and Reproducible Analysis Network
+author: "Robin Lovelace, Head of Data and Digital, Active Travel England<br>Coffee and Coding presentation for the Department for Transport's Coding and Reproducible Analysis Network"
 date: "2023-07-21"
 ---
 
@@ -35,6 +35,12 @@ Contact ITFP to be added to ([\_DfT_CClist\@dft.gov.uk](mailto:_DfT_CClist@dft.g
 
 If you'd like to present get in touch with Francesca Bryden or Dina Haque
 
+## Introduction to me
+
+And ATE's Data and Digital team
+
+![](images/paste-7.png)
+
 # Beginning: reinventing the wheel
 
 ## Wheel 1: EDA of bike crashes in West Yorkshire
@@ -62,6 +68,16 @@ Source: [whereWards.R](https://github.com/Robinlovelace/bikeR/blob/dec72385290ce
 ![](images/paste-6.png)
 
 Source: [preliminaries.R](https://github.com/Robinlovelace/bikeR/blob/dec72385290ce74df13e56f7fc8facc089afb1ad/stat19/preliminaries.R#L4)
+
+# Packaging code
+
+## 
+
+![](images/paste-8.png)
+
+## The stats19 R package
+
+![](images/paste-9.png)
 
 ## Appendix: how I made these slides
 
