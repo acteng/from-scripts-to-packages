@@ -77,7 +77,21 @@ Source: [preliminaries.R](https://github.com/Robinlovelace/bikeR/blob/dec7238529
 
 ## The stats19 R package
 
+Peer reviewed R package on CRAN: Work with Open Road Traffic Casualty Data from Great Britain • stats19 ([ropensci.org](https://docs.ropensci.org/stats19/))
+
 ![](images/paste-9.png)
+
+## What's in the box?
+
+# Live demo
+
+## Try in the devcontainer:
+
+![](images/paste-10.png)
+
+Source: acteng/from-scripts-to-packages: Slides for talk at Coding and Reproducible Analysis Network. Coffee and Coding! (github.com)
+
+# Live demo!
 
 ## Appendix: how I made these slides
 
