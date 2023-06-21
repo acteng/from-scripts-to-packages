@@ -8,11 +8,11 @@ date: "2023-07-21"
 
 # Introduction
 
-
 ## Abstract
 
-In this talk, Robin Lovelace will outline the benefits of moving from writing code as one-off scripts to be run once, and only once, to generalising your code by creating functions and packages. This will be an informal talk based on his own experience going from an academic script writing (scripts that may or may not run more than once, with limited reproducibility) to becoming an R package developer. For background, please check out the stats19 package and associated documentation including the vignettes (articles) at [https://docs.ropensci.org/stats19/](https://eur02.safelinks.protection.outlook.com/?url=https%3A%2F%2Fdocs.ropensci.org%2Fstats19%2F&data=05%7C01%7CRobin.Lovelace%40activetravelengland.gov.uk%7Cbf6d6c1359b14a5e282f08db5d0d05d8%7C28b782fb41e148eabfc3ad7558ce7136%7C0%7C0%7C638206082781953473%7CUnknown%7CTWFpbGZsb3d8eyJWIjoiMC4wLjAwMDAiLCJQIjoiV2luMzIiLCJBTiI6Ik1haWwiLCJXVCI6Mn0%3D%7C3000%7C%7C%7C&sdata=S4j2CUt1HI9%2BKRKMB1Fq1HW4BDm2V%2BSkRAWoYDOF47c%3D&reserved=0 "Original URL: https://docs.ropensci.org/stats19/. Click or tap if you trust this link.") and the introductory textbook on analysing road crash data with R developed for the RAC foundation (ideal for people early on their R/data science journeys): [https://github.com/ITSLeeds/rrsrr](https://eur02.safelinks.protection.outlook.com/?url=https%3A%2F%2Fgithub.com%2FITSLeeds%2Frrsrr&data=05%7C01%7CRobin.Lovelace%40activetravelengland.gov.uk%7Cbf6d6c1359b14a5e282f08db5d0d05d8%7C28b782fb41e148eabfc3ad7558ce7136%7C0%7C0%7C638206082781953473%7CUnknown%7CTWFpbGZsb3d8eyJWIjoiMC4wLjAwMDAiLCJQIjoiV2luMzIiLCJBTiI6Ik1haWwiLCJXVCI6Mn0%3D%7C3000%7C%7C%7C&sdata=LJN%2BIvop4q9ar2zPN0T5JWKxjeGFZXMuOCRoo2EngtE%3D&reserved=0 "Original URL: https://github.com/ITSLeeds/rrsrr. Click or tap if you trust this link.")
+I'll outline the benefits of moving from writing code as one-off scripts to be run once, and only once, to generalising your code by creating functions and packages. This will be based on his own experience going from an academic script writing (scripts that may or may not run more than once, with limited reproducibility) to becoming an R package developer. For background, please check out the stats19 package and associated documentation including the vignettes (articles) at [https://docs.ropensci.org/stats19/](https://eur02.safelinks.protection.outlook.com/?url=https%3A%2F%2Fdocs.ropensci.org%2Fstats19%2F&data=05%7C01%7CRobin.Lovelace%40activetravelengland.gov.uk%7Cbf6d6c1359b14a5e282f08db5d0d05d8%7C28b782fb41e148eabfc3ad7558ce7136%7C0%7C0%7C638206082781953473%7CUnknown%7CTWFpbGZsb3d8eyJWIjoiMC4wLjAwMDAiLCJQIjoiV2luMzIiLCJBTiI6Ik1haWwiLCJXVCI6Mn0%3D%7C3000%7C%7C%7C&sdata=S4j2CUt1HI9%2BKRKMB1Fq1HW4BDm2V%2BSkRAWoYDOF47c%3D&reserved=0 "Original URL: https://docs.ropensci.org/stats19/. Click or tap if you trust this link.") and the introductory textbook on analysing road crash data with R developed for the RAC foundation (ideal for people early on their R/data science journeys): [https://github.com/ITSLeeds/rrsrr](https://eur02.safelinks.protection.outlook.com/?url=https%3A%2F%2Fgithub.com%2FITSLeeds%2Frrsrr&data=05%7C01%7CRobin.Lovelace%40activetravelengland.gov.uk%7Cbf6d6c1359b14a5e282f08db5d0d05d8%7C28b782fb41e148eabfc3ad7558ce7136%7C0%7C0%7C638206082781953473%7CUnknown%7CTWFpbGZsb3d8eyJWIjoiMC4wLjAwMDAiLCJQIjoiV2luMzIiLCJBTiI6Ik1haWwiLCJXVCI6Mn0%3D%7C3000%7C%7C%7C&sdata=LJN%2BIvop4q9ar2zPN0T5JWKxjeGFZXMuOCRoo2EngtE%3D&reserved=0 "Original URL: https://github.com/ITSLeeds/rrsrr. Click or tap if you trust this link.")
 
+```{=html}
 <!-- **Start time**
 
 Please note, the session will start 5 minutes later than the scheduled start time, this is to allow time for setting up.
@@ -22,14 +22,14 @@ Please note, the session will start 5 minutes later than the scheduled start tim
 Sessions will be held only in cyberspace for the foreseeable future. Please mute your microphone unless you want to ask a question, you can also raise your hand with the hand icon, and post questions in the chat.
 
 **What is Coffee & Coding?** -->
-
+```
 ## What is this session?
 
 Coffee & Coding is part of the wider CRAN network provides a regular opportunity for people within DfT who are interested in coding to share skills and knowledge, and showcase coding projects that they're working on. See the CRAN Teams Channel files for past talks and code!
 
 **How do I get on the mailing list?**
 
-Employees of DfT should contact their IT focal point to ask to be added to \_DfT_CC list ([\_DfT_CClist\@dft.gov.uk](mailto:_DfT_CClist@dft.gov.uk "mailto:_dft_cclist@dft.gov.uk")), or you can add event invites from the Microsoft Teams CRAN channel directly.
+Contact ITFP to be added to ([\_DfT_CClist\@dft.gov.uk](mailto:_DfT_CClist@dft.gov.uk "mailto:_dft_cclist@dft.gov.uk")) or check Microsoft Teams CRAN channel directly.
 
 **Presenters**
 
@@ -37,7 +37,31 @@ If you'd like to present get in touch with Francesca Bryden or Dina Haque
 
 # Beginning: reinventing the wheel
 
+## Wheel 1: EDA of bike crashes in West Yorkshire
 
+![](images/paste-2.png)
+
+## Geographic analysis of STATS19 data (2016)
+
+![](images/paste-3.png)
+
+## Reproducible code
+
+![](images/paste-4.png)
+
+## How reproducible?
+
+### Hard-coded file paths
+
+![](images/paste-5.png)
+
+Source: [whereWards.R](https://github.com/Robinlovelace/bikeR/blob/dec72385290ce74df13e56f7fc8facc089afb1ad/stat19/whereWards.R#L14)
+
+## Random CSV files
+
+![](images/paste-6.png)
+
+Source: [preliminaries.R](https://github.com/Robinlovelace/bikeR/blob/dec72385290ce74df13e56f7fc8facc089afb1ad/stat19/preliminaries.R#L4)
 
 ## Appendix: how I made these slides
 
