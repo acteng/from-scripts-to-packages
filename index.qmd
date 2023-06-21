@@ -8,6 +8,7 @@ date: "2023-07-21"
 
 # Introduction
 
+
 ## Abstract
 
 In this talk, Robin Lovelace will outline the benefits of moving from writing code as one-off scripts to be run once, and only once, to generalising your code by creating functions and packages. This will be an informal talk based on his own experience going from an academic script writing (scripts that may or may not run more than once, with limited reproducibility) to becoming an R package developer. For background, please check out the stats19 package and associated documentation including the vignettes (articles) at [https://docs.ropensci.org/stats19/](https://eur02.safelinks.protection.outlook.com/?url=https%3A%2F%2Fdocs.ropensci.org%2Fstats19%2F&data=05%7C01%7CRobin.Lovelace%40activetravelengland.gov.uk%7Cbf6d6c1359b14a5e282f08db5d0d05d8%7C28b782fb41e148eabfc3ad7558ce7136%7C0%7C0%7C638206082781953473%7CUnknown%7CTWFpbGZsb3d8eyJWIjoiMC4wLjAwMDAiLCJQIjoiV2luMzIiLCJBTiI6Ik1haWwiLCJXVCI6Mn0%3D%7C3000%7C%7C%7C&sdata=S4j2CUt1HI9%2BKRKMB1Fq1HW4BDm2V%2BSkRAWoYDOF47c%3D&reserved=0 "Original URL: https://docs.ropensci.org/stats19/. Click or tap if you trust this link.") and the introductory textbook on analysing road crash data with R developed for the RAC foundation (ideal for people early on their R/data science journeys): [https://github.com/ITSLeeds/rrsrr](https://eur02.safelinks.protection.outlook.com/?url=https%3A%2F%2Fgithub.com%2FITSLeeds%2Frrsrr&data=05%7C01%7CRobin.Lovelace%40activetravelengland.gov.uk%7Cbf6d6c1359b14a5e282f08db5d0d05d8%7C28b782fb41e148eabfc3ad7558ce7136%7C0%7C0%7C638206082781953473%7CUnknown%7CTWFpbGZsb3d8eyJWIjoiMC4wLjAwMDAiLCJQIjoiV2luMzIiLCJBTiI6Ik1haWwiLCJXVCI6Mn0%3D%7C3000%7C%7C%7C&sdata=LJN%2BIvop4q9ar2zPN0T5JWKxjeGFZXMuOCRoo2EngtE%3D&reserved=0 "Original URL: https://github.com/ITSLeeds/rrsrr. Click or tap if you trust this link.")
@@ -34,7 +35,9 @@ Employees of DfT should contact their IT focal point to ask to be added to \_DfT
 
 If you'd like to present get in touch with Francesca Bryden or Dina Haque
 
-# Slide 2
+# Beginning: reinventing the wheel
+
+
 
 ## Appendix: how I made these slides
 
